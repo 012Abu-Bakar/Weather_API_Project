@@ -1,0 +1,45 @@
+With the help of API's we can access the information 
+from another website we can embeded the information 
+on our own website
+Example: On some website we can see the whether report
+	 these reports are not make by that website 
+	 developer, but embeded through API.  
+
+*Some points related to API's 
+1.Endpoint
+2.Paths
+3.Parameter
+4.Authentication 
+
+//understand above points using examples
+
+1.Endpoint: Endpoint is the URL using through access the server 
+	    of (kanye.rest)that website With the help of 
+ENDPOINT we can access that server of that website
+
+    first go on kanye.rest website, This website provide 
+random quotes,copy that link and paste on another 
+webpage for seeing quotes, for next quote refresh it.
+
+2.Paths: Go to JokeAPi website, it's an advance version of Kanya.rest API 
+	 Inside Try it out section we can customise our needs
+and copy paste link for jokes.
+You can see JavaScriptObjectNotation(JASON)Format
+JASON is collection of key-value pair.
+
+3.Parameter: On the above same website we can provide 
+	     a parameter which we want to add in joke
+(These are extra info which filter our results)
+
+4.Authentication: When we copy the endpoint and paste on
+		  new tab, whenever I'll paste it, the request 
+will go to the API sever(EX: Joke API server), 
+On Joke API server authentication take place it will 
+authenticate us, verify our IP address and check what 
+is the request and response type thge we need to same.
+Afte authentication is done it will send the reasponse
+in JASON format.
+This authetication is not done by our side but done by 
+API side of who-so-ever website we are going to use.
+
+The response we get is JASON object
